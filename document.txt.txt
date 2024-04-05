@@ -1,0 +1,5 @@
+await browser.execute(
+      (header, boundaryLayout) => {
+        document.body.appendChild(header);
+        document.body.appendChild(boundaryLayout);
+      },
